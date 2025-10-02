@@ -1,0 +1,236 @@
+@media (max-height: 500px) and (orientation: landscape) {
+  .container {
+    margin: 10px auto;
+  }
+  
+  .todo-item {
+    padding: 8px 12px;
+  }
+
+  .todo-item span {
+    height: auto;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+    padding: 0 16px;
+  }
+  
+  .theme-button {
+    align-self: flex-end;
+  }
+
+  .todo-item span {
+    height: auto;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 16px auto;
+    padding: 0 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .theme-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .stats {
+    font-size: 14px;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .filters {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .filter-button {
+    padding: 6px 10px;
+    font-size: 14px;
+    flex: 1;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  #todo-input,
+  #todo-form button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .todo-item {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .todo-content {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .todo-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .todo-item span {
+    height: auto;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+  .todo-item input {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    line-height: 1.4;
+  }
+
+  .check-button {
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .todo-item button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 12px auto;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .theme-button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .stats {
+    font-size: 12px;
+  }
+
+  .filter-button {
+    font-size: 12px;
+    padding: 5px 8px;
+    min-width: 70px;
+  }
+
+  #todo-input,
+  #todo-form button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .todo-item {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .todo-item span {
+    height: auto;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+  .todo-item input {
+    width: 100%;
+    height: auto;
+    line-height: 1.4;
+  }
+
+  .todo-item button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .check-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 8px;
+    margin: 8px auto;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .theme-button {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
+  .stats {
+    font-size: 11px;
+  }
+
+  .filters {
+    gap: 4px;
+  }
+
+  .filter-button {
+    padding: 4px 6px;
+    font-size: 11px;
+    min-width: 60px;
+  }
+
+  #todo-form {
+    gap: 6px;
+  }
+
+  #todo-input,
+  #todo-form button {
+    font-size: 13px;
+    padding: 7px;
+  }
+
+  .todo-item {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .todo-item span {
+    height: auto;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+  .todo-item input {
+    width: 100%;
+    height: auto;
+    line-height: 1.4;
+  }
+
+  .todo-item button {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
+  .check-button {
+    font-size: 16px;
+  }
+}

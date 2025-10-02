@@ -1,0 +1,76 @@
+body {
+  background-color: #1E2A3C;
+}
+
+h1 {
+  color: #D6E8EE;
+}
+
+.theme-button {
+  background: linear-gradient(to right, #A7D7C5, #3B4A6B);
+  border: 1px solid #B4D8DC;
+  color: #B4D8DC;
+}
+
+.stats {
+  color: #D6E8EE;
+}
+
+.filter-button {
+  background-color: #3B4A6B;
+  color: #D6E8EE;
+}
+
+.filter-button.active,
+.filter-button:hover {
+  background-color: #A7D7C5;
+  color: #374151;
+}
+
+#todo-form button {
+  background-color: #A7D7C5;
+  color: #374151;
+}
+
+#todo-input {
+  background-color: #374151;
+  border-color: #4B5563;
+  color: #D6E8EE;
+}
+
+.todo-item {
+  background-color: #374151;
+  color: #D6E8EE;
+}
+
+.todo-item input {
+  background-color: #1E2A3C;
+  border-color: #4B5563;
+  color: #D6E8EE;
+}
+
+.todo-item span {
+  color: #D6E8EE;
+}
+
+.todo-item.completed span {
+  color: #9CA3AF;
+}
+
+.check-button {
+  color: #B4D8DC;
+}
+
+.todo-item.completed .check-button {
+  color: #A7D7C5;
+}
+
+.edit-button {
+  background-color: #A7D7C5;
+  color: #374151;
+}
+
+.delete-button {
+  background-color: #E57373;
+  color: #374151;  
+}
